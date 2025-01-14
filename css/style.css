@@ -9,6 +9,7 @@ img {
 
 body {
   background-color: #19a1ae;
+  font-family: "Kumbh Sans", serif;
 }
 
 .bg-top {
@@ -19,6 +20,55 @@ body {
 
 .bg-bot {
   position: absolute;
-  bottom: -300px;
+  bottom: -450px;
   right: -400px;
+}
+
+.profile {
+  width: 326px;
+  height: 374px;
+  padding-top: 92px;
+  background-image: url(../assets/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.profile__img {
+  width: 96px;
+  height: 96px;
+  margin-inline: auto;
+  border: 5px solid #FFF;
+  border-radius: 50px;
+}
+
+.profile__name {
+  display: flex;
+}
+
+.title-1 {
+  color: #2E3349;
+  font-size: 18px;
+  font-weight: 700;
+  grid-column: 1/3;
+}
+
+.title-2 {
+  color: #6B7082;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text-1 {
+  color: #6B7082;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-2 {
+  color: #6B7082;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
